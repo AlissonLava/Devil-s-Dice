@@ -88,6 +88,7 @@
             this.btnRoll.TabIndex = 3;
             this.btnRoll.Text = "Roll";
             this.btnRoll.UseVisualStyleBackColor = true;
+            this.btnRoll.Click += new System.EventHandler(this.btnRoll_Click);
             // 
             // lblRollAnterior
             // 

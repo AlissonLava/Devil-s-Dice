@@ -71,6 +71,7 @@
             this.btnAddAlma.TabIndex = 2;
             this.btnAddAlma.Text = "+";
             this.btnAddAlma.UseVisualStyleBackColor = false;
+            this.btnAddAlma.Click += new System.EventHandler(this.btnAddAlma_Click);
             // 
             // lblAlmas
             // 
@@ -97,6 +98,7 @@
             this.btnJogar.TabIndex = 4;
             this.btnJogar.Text = "Jogar";
             this.btnJogar.UseVisualStyleBackColor = true;
+            this.btnJogar.Click += new System.EventHandler(this.btnJogar_Click);
             // 
             // frmDDMain
             // 
